@@ -1,17 +1,16 @@
+import Footer from "./Footer";
+import Header from "./header";
+import HeroSection from "./HeroSection";
+import TaskBoard from "./Task/TaskBoard";
 export default function App() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
-      <h1 className="text-6xl font-bold text-blue-600 mb-4">
-        🎉 Project is Working!
-      </h1>
-
-      <p className="text-xl text-gray-700">
-        React + Tailwind CSS is running successfully.
-      </p>
-
-      <button className="mt-6 px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
-        Test Button
-      </button>
-    </div>
+    <>
+      <Header />
+      <div className="flex flex-col justify-center items-center">
+        <HeroSection />
+        <TaskBoard />
+      </div>
+      <Footer />
+    </>
   );
 }
