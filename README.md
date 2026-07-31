@@ -54,13 +54,27 @@ http://localhost:5173
 ## 📁 Project Structure
 
 ```
-tasker/
-│── public/
-│── src/
-│── package.json
-│── vite.config.js
-│── eslint.config.js
-└── README.md
+src/
+│
+├── assets/
+│
+├── components/
+│   ├── Header.jsx
+│   ├── HeroSection.jsx
+│   └── Footer.jsx
+│
+├── task/
+│   ├── AddTaskModal.jsx
+│   ├── NoTaskFound.jsx
+│   ├── SearchTask.jsx
+│   ├── TaskActions.jsx
+│   ├── TaskBoard.jsx
+│   └── TaskList.jsx
+│
+├── App.jsx
+├── App.css
+├── main.jsx
+└── index.css
 ```
 
 ## 📜 Available Scripts
